@@ -8,12 +8,12 @@ function Nav() {
       </a>
       <ul className = "navbar-nav">
       <li className = "nav-item">
-          <a className = "nav-link" href = "/search">
+          <a className = "nav-link" href = "/">
               Search
           </a>
       </li>
       <li className = "nav-item">
-          <a className = "nav-link" href = "/saved">
+          <a className = "nav-link" href = "/books">
               Saved
           </a>
       </li>
