@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import About from "./pages/About";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
-// import NoMatch from "./pages/NoMatch";
+import NoMatch from "./pages/NoMatch";
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
           <Switch>
           <Route exact path="/" component={Search} />
           <Route exact path="/books" component={Saved} />
-            {/* <Route Component={NoMatch} /> */}
+            <Route Component={NoMatch} />
           </Switch>
         </div>
       </Router>
